@@ -32,7 +32,7 @@ class CategoryDetailsScreen extends StatelessWidget {
             Container(
                 width: double.infinity,
                 padding: const EdgeInsets.all(24),
-                color: category.color.withOpacity(0.1),
+                color: category.color.withValues(alpha: 0.1),
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [

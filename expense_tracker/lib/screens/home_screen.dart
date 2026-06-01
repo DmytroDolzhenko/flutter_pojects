@@ -140,7 +140,7 @@ class _HomeScreenState extends State<HomeScreen> {
           Container(
             width: double.infinity,
             padding: const EdgeInsets.all(16),
-            color: Theme.of(context).primaryColor.withOpacity(0.1),
+            color: Theme.of(context).primaryColor.withValues(alpha: 0.1),
             child: Text(
               'Total: \$${_totalExpenses.toStringAsFixed(2)}',
               style: const TextStyle(fontSize: 24, fontWeight: FontWeight.bold),

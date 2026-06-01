@@ -1,0 +1,35 @@
+{
+  "appTitle": "My Store",
+  "productsTab": "Products",
+  "settingsTab": "Settings",
+  "helloUser": "Hello, {name}!",
+  "@helloUser": {
+    "placeholders": {
+      "name": { "type": "String" }
+    }
+  },
+  "itemsCount": "{count, plural, =0{No items} =1{1 item} other{{count} items}}",
+  "@itemsCount": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "totalPrice": "Total: {price}",
+  "addedDate": "Added: {date}",
+  "languageLabel": "Language",
+  "selectLanguage": "Select application language",
+  "ukrainian": "Ukrainian",
+  "english": "English",
+  "polish": "Polish",
+  "french": "French",
+  "german": "German",
+  "arabic": "Arabic",
+  "save": "Save",
+  "cancel": "Cancel",
+  "delete": "Delete",
+  "edit": "Edit",
+  "add": "Add",
+  "productName": "T-Shirt",
+  "shoesName": "Sneakers",
+  "langChanged": "Language changed successfully"
+}
